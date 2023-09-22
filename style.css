@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    position: fixed;
+    position: relative;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    font-size: 13px;
+    padding: 0px 15px;
+    
+}
+nav>ul>li>a:hover{
+    color: rgb(171, 165, 224);
+} 
+
+main{
+    background-color: rgb(166, 235, 235);
+    height: 100%;
+    min-height: 80vh;
+}
+.heading {
+    text-align: center;
+    color: rgb(106, 42, 167);
+}
+.container {
+    padding: 0px 10px 0px 30px;
+    text-align: center;
+}
+p {
+    font-size: 12px;
+    text-align: left;
+}
+h5 {
+    padding-right : 200px;
+}
+#email{
+    border-style: none;
+    border-radius: 5px;
+    width: 300px;
+    padding: 6px 10px;
+    margin: 5px 0px;
+    background-color: rgb(192, 236, 236);
+}
+#submitBtn{
+    background-color: rgb(111, 199, 240);
+    color: rgb(75, 26, 26);
+    padding: 6px;
+    margin-left: 12px;
+    border-radius: 5px;
+    border-style: none;
+}
+#submitBtn:hover{
+    padding: 8px;
+    background-color: rgb(84, 84, 236);
+}
+#resultCont {
+    font-size: 12px;
+}
+#resultCont div::first-letter{
+    text-transform: uppercase;
+}
+footer{
+    position: fixed;
+    position: relative;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+}
+
+/* @media only screen and (max-width: 600px) {
+
+    .container{
+        font-size: 12px; 
+    }
+
+    input[type='text'] {
+        width: 100%; 
+    }
+
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        padding: 6px 0;
+        font-size: 12px;
+    }
+    .logo span{
+        font-size: 20px;
+    }
+    .logo img{
+        width: 15px;
+        filter: invert(1);
+    }
+  } */
